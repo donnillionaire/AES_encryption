@@ -32,4 +32,8 @@ $router->group(['prefix' => 'api'], function () use ($router) {
   $router->delete('authors/{id}', ['uses' => 'AuthorController@delete']);
 
   $router->put('authors/{id}', ['uses' => 'AuthorController@update']);
+
+
+  //catgory routes
+ // $router->get('authors',  ['uses' => 'CategoryController@addcategory']);
 });

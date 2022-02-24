@@ -6,7 +6,6 @@
     "type": "project",
     "require": {
         "php": "^8.0",
-        "ionghitun/laravel-lumen-mysql-encryption": "*",
         "laravel/lumen-framework": "^9.0"
     },
     "require-dev": {
